@@ -1,0 +1,33 @@
+<html> 
+  <head> 
+    <style>
+      .column {
+        float: left;
+        width: 33.33%;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script> 
+    $(function(){
+      $("#78-90").load("voronoitreemap_78-90.html");
+      $("#90-103").load("voronoitreemap_90-103.html");
+      $("#103-133").load("voronoitreemap_103-133.html");
+    });
+    </script> 
+  </head> 
+
+  <body> 
+     <div class = "row">
+        <div class="column" id="78-90"></div>
+        <div class="column" id="90-103"></div>
+        <div class="column" id="103-133"></div>
+     </div>
+  </body> 
+</html>
