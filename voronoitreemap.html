@@ -165,7 +165,7 @@
         	.attr("id", "title")
         	.attr("transform", "translate("+[halfWidth, titleY]+")")
         	.attr("text-anchor", "middle")
-          .text("The Global Economy by GDP (as of 01/2017)")
+          .text("Umayyad post-reform dirhams, 78-90 AH")
       }
       
       function drawFooter() {
@@ -173,12 +173,12 @@
         	.classed("tiny light", true)
         	.attr("transform", "translate("+[0, height]+")")
         	.attr("text-anchor", "start")
-        	.text("Remake of HowMuch.net's article 'The Global Economy by GDP'")
+        	.text("Voronoi treemap of Umayyad post-reform dirhams")
         drawingArea.append("text")
         	.classed("tiny light", true)
         	.attr("transform", "translate("+[halfWidth, height]+")")
         	.attr("text-anchor", "middle")
-        	.text("by @_Kcnarf")
+        	.text("based on")
         drawingArea.append("text")
         	.classed("tiny light", true)
         	.attr("transform", "translate("+[width, height]+")")
@@ -219,7 +219,7 @@
         
         legendContainer.append("text")
         	.attr("transform", "translate("+[0, -continents.length*(legendHeight+interLegend)-5]+")")
-          .text("Continents");
+          .text("Regions");
       }
       
       function drawTreemap(hierarchy) {
