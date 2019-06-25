@@ -1,0 +1,138 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "weight": "11,35333101",
+                    "code": "651",
+                    "name": "Khurasan"
+                },
+                {
+                    "weight": "0,174398326",
+                    "code": "10",
+                    "name": "Tabaristan"
+                }
+            ],
+            "color": "#e6194b",
+            "name": "Khurasan"
+        },
+        {
+            "children": [
+                {
+                    "weight": "7,621206836",
+                    "code": "437",
+                    "name": "Sham"
+                }
+            ],
+            "color": "#3cb44b",
+            "name": "Syria"
+        },
+        {
+            "children": [
+                {
+                    "weight": "16,75967911",
+                    "code": "961",
+                    "name": "Wasit"
+                }
+            ],
+            "color": "#ffe119",
+            "name": "Wasit"
+        },
+        {
+            "children": [
+                {
+                    "weight": "3,45308685",
+                    "code": "198",
+                    "name": "North"
+                },
+                {
+                    "weight": "1,76142309",
+                    "code": "101",
+                    "name": "Kufa"
+                },
+                {
+                    "weight": "15,92256714",
+                    "code": "913",
+                    "name": "Jibal"
+                }
+            ],
+            "color": "#4363d8",
+            "name": "Kufa"
+        },
+        {
+            "children": [
+                {
+                    "weight": "0,662713638",
+                    "code": "38",
+                    "name": "West"
+                },
+                {
+                    "weight": "0",
+                    "code": "0",
+                    "name": "Ifriqiya"
+                }
+            ],
+            "color": "#f58231",
+            "name": "West"
+        },
+        {
+            "children": [
+                {
+                    "weight": "3,418207185",
+                    "code": "196",
+                    "name": "Basra"
+                },
+                {
+                    "weight": "18,95709801",
+                    "code": "1087",
+                    "name": "Fars"
+                },
+                {
+                    "weight": "4,168119986",
+                    "code": "239",
+                    "name": "Kirman"
+                },
+                {
+                    "weight": "12,90547611",
+                    "code": "740",
+                    "name": "Ahwaz"
+                },
+                {
+                    "weight": "0,052319498",
+                    "code": "3",
+                    "name": "Sind"
+                },
+                {
+                    "weight": "2,528775724",
+                    "code": "145",
+                    "name": "Sistan"
+                }
+            ],
+            "color": "#911eb4",
+            "name": "Basra"
+        },
+        {
+            "children": [
+                {
+                    "weight": "0,104638995",
+                    "code": "6",
+                    "name": "Arabia"
+                }
+            ],
+            "color": "#46f0f0",
+            "name": "Arabia"
+        },
+        {
+            "children": [
+                {
+                    "weight": "0,156958493",
+                    "code": "9",
+                    "name": "undefined"
+                }
+            ],
+            "color": "#f032e6",
+            "name": "undefined"
+        }
+    ],
+    "name": "Islamic Empire 90_103 AH"
+}
