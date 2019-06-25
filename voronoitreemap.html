@@ -9,7 +9,6 @@
     <script src="https://raw.githack.com/Kcnarf/d3-weighted-voronoi/master/build/d3-weighted-voronoi.js"></script>
     <script src="https://rawcdn.githack.com/Kcnarf/d3-voronoi-map/v1.2.0/build/d3-voronoi-map.js"></script>
     <script src="https://rawcdn.githack.com/Kcnarf/d3-voronoi-treemap/v1.1.0/build/d3-voronoi-treemap.js"></script>
-    <script src="data/loadData.js"></script>
     <style>
       svg {
         background-color: rgb(250,250,250);
@@ -105,7 +104,7 @@
       //end: reusable d3Selection
       
 
-      d3.json(jsonData, function(error, rootData) {
+      d3.json(src="data/globalEconomyByGDP.json", function(error, rootData) {
         if (error) throw error;
         
         initData();
