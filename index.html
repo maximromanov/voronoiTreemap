@@ -9,11 +9,16 @@
     <script src="https://rawcdn.githack.com/Kcnarf/d3-voronoi-map/v1.2.0/build/d3-voronoi-map.js"></script>
     <script src="https://rawcdn.githack.com/Kcnarf/d3-voronoi-treemap/v1.1.0/build/d3-voronoi-treemap.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      function resizeIframe(obj) {
+        obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+      }
+</script>
   </head> 
 
   <body> 
-    <iframe id="78_90" src="./voronoitreemap_78-90.html"></iframe>
-    <iframe id="90_103" src="./voronoitreemap_90-103.html"></iframe>
-    <iframe id="103_133"src="./voronoitreemap_103-133.html"></iframe>
+    <iframe id="78_90" src="./voronoitreemap_78-90.html" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+    <iframe id="90_103" src="./voronoitreemap_90-103.html" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+    <iframe id="103_133"src="./voronoitreemap_103-133.html" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
   </body> 
 </html>
