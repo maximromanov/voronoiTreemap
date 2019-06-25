@@ -2,121 +2,121 @@
     "name": "Islamic Empire 103_133 AH",
     "children": [
         {
-            "name": "Khurasan",
-            "children": [
-                {
-                    "weight": 4.63030303,
-                    "name": "Khurasan",
-                    "code": 191.0
-                },
-                {
-                    "weight": 0.024242424,
-                    "name": "Tabaristan",
-                    "code": 1.0
-                }
-            ],
-            "color": "#e6194b"
-        },
-        {
-            "name": "West",
-            "children": [
-                {
-                    "weight": 14.61818182,
-                    "name": "West",
-                    "code": 603.0
-                },
-                {
-                    "weight": 3.733333333,
-                    "name": "Ifriqiya",
-                    "code": 154.0
-                }
-            ],
-            "color": "#ffe119"
-        },
-        {
             "name": "Syria",
+            "color": "#e6194b",
             "children": [
                 {
-                    "weight": 12.26666667,
                     "name": "Sham",
-                    "code": 506.0
+                    "weight": 12.27,
+                    "code": 506
                 }
-            ],
-            "color": "#4363d8"
+            ]
         },
         {
             "name": "Wasit",
+            "color": "#ffe119",
             "children": [
                 {
-                    "weight": 48.36363636,
                     "name": "Wasit",
-                    "code": 1995.0
+                    "weight": 48.36,
+                    "code": 1995
                 }
-            ],
-            "color": "#f58231"
-        },
-        {
-            "name": "undefined",
-            "children": [
-                {
-                    "weight": 0.096969697,
-                    "name": "undefined",
-                    "code": 4.0
-                }
-            ],
-            "color": "#911eb4"
-        },
-        {
-            "name": "Kufa",
-            "children": [
-                {
-                    "weight": 7.903030303,
-                    "name": "North",
-                    "code": 326.0
-                },
-                {
-                    "weight": 1.696969697,
-                    "name": "Kufa",
-                    "code": 70.0
-                },
-                {
-                    "weight": 2.884848485,
-                    "name": "Jibal",
-                    "code": 119.0
-                }
-            ],
-            "color": "#46f0f0"
+            ]
         },
         {
             "name": "Basra",
+            "color": "#4363d8",
             "children": [
                 {
-                    "weight": 1.648484848,
                     "name": "Basra",
-                    "code": 68.0
+                    "weight": 1.65,
+                    "code": 68
                 },
                 {
-                    "weight": 0.63030303,
                     "name": "Fars",
-                    "code": 26.0
+                    "weight": 0.63,
+                    "code": 26
                 },
                 {
-                    "weight": 0.678787879,
                     "name": "Kirman",
-                    "code": 28.0
+                    "weight": 0.68,
+                    "code": 28
                 },
                 {
-                    "weight": 0.315151515,
                     "name": "Ahwaz",
-                    "code": 13.0
+                    "weight": 0.32,
+                    "code": 13
                 },
                 {
-                    "weight": 0.509090909,
                     "name": "Sistan",
-                    "code": 21.0
+                    "weight": 0.51,
+                    "code": 21
                 }
-            ],
-            "color": "#f032e6"
+            ]
+        },
+        {
+            "name": "Khurasan",
+            "color": "#f58231",
+            "children": [
+                {
+                    "name": "Khurasan",
+                    "weight": 4.63,
+                    "code": 191
+                },
+                {
+                    "name": "Tabaristan",
+                    "weight": 0.02,
+                    "code": 1
+                }
+            ]
+        },
+        {
+            "name": "West",
+            "color": "#911eb4",
+            "children": [
+                {
+                    "name": "West",
+                    "weight": 14.62,
+                    "code": 603
+                },
+                {
+                    "name": "Ifriqiya",
+                    "weight": 3.73,
+                    "code": 154
+                }
+            ]
+        },
+        {
+            "name": "Kufa",
+            "color": "#46f0f0",
+            "children": [
+                {
+                    "name": "North",
+                    "weight": 7.9,
+                    "code": 326
+                },
+                {
+                    "name": "Kufa",
+                    "weight": 1.7,
+                    "code": 70
+                },
+                {
+                    "name": "Jibal",
+                    "weight": 2.88,
+                    "code": 119
+                }
+            ]
+        },
+        {
+            "name": "undefined",
+            "color": "#f032e6",
+            "children": [
+                {
+                    "name": "undefined",
+                    "weight": 0.1,
+                    "code": 4
+                }
+            ]
         }
     ]
 }
